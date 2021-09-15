@@ -1,8 +1,6 @@
 ## IterateQ4
 
-This script deletes the existing Gamex86.dll from the folder and game000.pak
-and replaces it with the newly compiled version from the provided DLL path.
-7zip is required to be installed, the script will attempt to add 7zip to your path if it is not already added you may need to modify the 7ZPATH variable if your path does not match 
+This script deletes the existing Gamex86.dll from the mod folder in addition to  game000.pak and replaces it with the newly compiled version from the provided DLL path. 7zip is required to be installed, the script will attempt to add 7zip to your path if it is not already added you may need to modify the 7ZPATH variable if your path does not match 
 
 The Script takes two arguments the Path to the Mod directory and the path to
 the new dll (MODPATH and DLLPATH). The arguments are positional the mod path comes before the DLL path.
